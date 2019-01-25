@@ -12,8 +12,8 @@
 		A22BDDE421C44A7C00D36DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BDDE221C44A7C00D36DF9 /* Main.storyboard */; };
 		A22BDDE621C44A7D00D36DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22BDDE521C44A7D00D36DF9 /* Assets.xcassets */; };
 		A22BDDE921C44A7D00D36DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BDDE721C44A7D00D36DF9 /* LaunchScreen.storyboard */; };
-		A22BDDF421C44A7D00D36DF9 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BDDF321C44A7D00D36DF9 /* ConcentrationTests.swift */; };
-		A22BDDFF21C44A7D00D36DF9 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BDDFE21C44A7D00D36DF9 /* ConcentrationUITests.swift */; };
+		A23CD76C21C4792F00012C45 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23CD76B21C4792F00012C45 /* Concentration.swift */; };
+		A23CD76E21C479F600012C45 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23CD76D21C479F600012C45 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A22BDDDB21C44A7C00D36DF9 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22BDDDE21C44A7C00D36DF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A22BDDDB21C44A7C00D36DF9 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Concentration.app; path = "/Users/darko/Library/Mobile Documents/com~apple~CloudDocs/Swift/Stanford CS193/Concentration/build/Debug-iphoneos/Concentration.app"; sourceTree = "<absolute>"; };
+		A22BDDDE21C44A7C00D36DF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		A22BDDE021C44A7C00D36DF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A22BDDE321C44A7C00D36DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A22BDDE521C44A7D00D36DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22BDDE521C44A7D00D36DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		A22BDDE821C44A7D00D36DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22BDDEA21C44A7D00D36DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A22BDDEF21C44A7D00D36DF9 /* ConcentrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22BDDF321C44A7D00D36DF9 /* ConcentrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationTests.swift; sourceTree = "<group>"; };
-		A22BDDF521C44A7D00D36DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A22BDDFA21C44A7D00D36DF9 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22BDDFE21C44A7D00D36DF9 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
-		A22BDE0021C44A7D00D36DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22BDDEF21C44A7D00D36DF9 /* ConcentrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ConcentrationTests.xctest; path = "/Users/darko/Library/Mobile Documents/com~apple~CloudDocs/Swift/Stanford CS193/Concentration/build/Debug-iphoneos/ConcentrationTests.xctest"; sourceTree = "<absolute>"; };
+		A22BDDFA21C44A7D00D36DF9 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ConcentrationUITests.xctest; path = "/Users/darko/Library/Mobile Documents/com~apple~CloudDocs/Swift/Stanford CS193/Concentration/build/Debug-iphoneos/ConcentrationUITests.xctest"; sourceTree = "<absolute>"; };
+		A23CD76B21C4792F00012C45 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		A23CD76D21C479F600012C45 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,51 +76,30 @@
 			isa = PBXGroup;
 			children = (
 				A22BDDDD21C44A7C00D36DF9 /* Concentration */,
-				A22BDDF221C44A7D00D36DF9 /* ConcentrationTests */,
-				A22BDDFD21C44A7D00D36DF9 /* ConcentrationUITests */,
-				A22BDDDC21C44A7C00D36DF9 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		A22BDDDC21C44A7C00D36DF9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A22BDDDB21C44A7C00D36DF9 /* Concentration.app */,
-				A22BDDEF21C44A7D00D36DF9 /* ConcentrationTests.xctest */,
-				A22BDDFA21C44A7D00D36DF9 /* ConcentrationUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A22BDDDD21C44A7C00D36DF9 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				A22BDDDE21C44A7C00D36DF9 /* AppDelegate.swift */,
+				A22BDE0C21C44BA700D36DF9 /* Supporting Files */,
 				A22BDDE021C44A7C00D36DF9 /* ViewController.swift */,
 				A22BDDE221C44A7C00D36DF9 /* Main.storyboard */,
-				A22BDDE521C44A7D00D36DF9 /* Assets.xcassets */,
-				A22BDDE721C44A7D00D36DF9 /* LaunchScreen.storyboard */,
+				A23CD76B21C4792F00012C45 /* Concentration.swift */,
+				A23CD76D21C479F600012C45 /* Card.swift */,
 				A22BDDEA21C44A7D00D36DF9 /* Info.plist */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
 		};
-		A22BDDF221C44A7D00D36DF9 /* ConcentrationTests */ = {
+		A22BDE0C21C44BA700D36DF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A22BDDF321C44A7D00D36DF9 /* ConcentrationTests.swift */,
-				A22BDDF521C44A7D00D36DF9 /* Info.plist */,
+				A22BDDDE21C44A7C00D36DF9 /* AppDelegate.swift */,
+				A22BDDE521C44A7D00D36DF9 /* Assets.xcassets */,
+				A22BDDE721C44A7D00D36DF9 /* LaunchScreen.storyboard */,
 			);
-			path = ConcentrationTests;
-			sourceTree = "<group>";
-		};
-		A22BDDFD21C44A7D00D36DF9 /* ConcentrationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A22BDDFE21C44A7D00D36DF9 /* ConcentrationUITests.swift */,
-				A22BDE0021C44A7D00D36DF9 /* Info.plist */,
-			);
-			path = ConcentrationUITests;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +190,7 @@
 				Base,
 			);
 			mainGroup = A22BDDD221C44A7C00D36DF9;
-			productRefGroup = A22BDDDC21C44A7C00D36DF9 /* Products */;
+			productRefGroup = A22BDDD221C44A7C00D36DF9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -258,6 +235,8 @@
 			files = (
 				A22BDDE121C44A7C00D36DF9 /* ViewController.swift in Sources */,
 				A22BDDDF21C44A7C00D36DF9 /* AppDelegate.swift in Sources */,
+				A23CD76C21C4792F00012C45 /* Concentration.swift in Sources */,
+				A23CD76E21C479F600012C45 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22BDDF421C44A7D00D36DF9 /* ConcentrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22BDDFF21C44A7D00D36DF9 /* ConcentrationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
